@@ -1,7 +1,6 @@
 # STEPin MiniProject_Template Sample
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3b20c7c3ec7f4734b42cc0d04dcf3fb2)](https://app.codacy.com/manual/stepin654321/MiniProject_Template?utm_source=github.com&utm_medium=referral&utm_content=stepin654321/MiniProject_Template&utm_campaign=Badge_Grade_Dashboard)
-
+([![Codacy Badge](https://app.codacy.com/project/badge/Grade/d13728e8b4324fd085aa96e3fb1c9214)](https://www.codacy.com/gh/AdityaGautam05/LTTS-C-MiniProject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AdityaGautam05/LTTS-C-MiniProject&amp;utm_campaign=Badge_Grade)
 
 |Build|Unit Test|cppcheck|Valgrind|Codacy|
 |:--:|:--:|:--:|:--:|:--:|
