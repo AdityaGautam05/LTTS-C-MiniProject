@@ -53,7 +53,7 @@
 
 ## SWOT ANALYSIS
 
-![SWOT Analysis](https://github.com/AdityaGautam05/LTTS-C-MiniProject/tree/main/MiniProject_C/1_Requirements/swot.png)
+![SWOT Analysis](https://github.com/AdityaGautam05/LTTS-C-MiniProject/blob/main/images/swot.png)
 
 # 3W&#39;s and 1&#39;H
 
