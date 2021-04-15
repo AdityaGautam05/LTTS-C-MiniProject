@@ -1,6 +1,7 @@
-#include "CBank_Header.h"
+#include "../inc/CBank_Header.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 int i, j;
 int main_exit;
