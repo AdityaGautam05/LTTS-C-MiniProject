@@ -13,8 +13,6 @@ TEST_SRC = src/CBank_Header.c\
 test/Test_CBank.c\
 unity/unity.c\
 
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
-
 # All include folders with header files
 INC = inc/CBank_Header.h
 
