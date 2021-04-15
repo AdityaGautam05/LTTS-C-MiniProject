@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = CBank
+PROJECT_NAME = CBank.exe
 
 # Output directory
 BUILD = build
