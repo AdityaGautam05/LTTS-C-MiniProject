@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = CBank.exe
+PROJECT_NAME = CBank
 
 # Output directory
 BUILD = build
@@ -35,7 +35,7 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	gcc -I project_main.c $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
+	gcc -I $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
