@@ -16,8 +16,7 @@ unity/unity.c\
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
-INC	= -Iinc\
--Iunity\
+INC = inc/CBank_Header.h
 
 #Library Inlcudes
 #INCLUDE_LIBS = 
@@ -35,8 +34,8 @@ $(PROJECT_NAME):all
 # Run the target even if the matching name exists
 .PHONY: run clean test doc all
 
-all: $(SRC)
-	gcc $(SRC) -o $(PROJECT_OUTPUT).out
+all: $(SRC) $(INC)
+	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
