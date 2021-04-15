@@ -10,7 +10,7 @@ CBank.c \
 
 # All test source files
 TEST_SRC = src/CBank_Header.c\
-test/Test_CBank_Header.c\
+test/Test_CBank.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
@@ -47,8 +47,7 @@ doc:
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
-	./$(TEST_OUTPUT)
+	gcc $(TEST_SRC) $(INC) -o testingoutput.out
 
 # Remove all the built files, invoke by `make clean`
 clean:
