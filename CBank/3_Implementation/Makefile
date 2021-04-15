@@ -45,7 +45,7 @@ doc:
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o testingoutput.out
+	gcc $(TEST_SRC) $(INC) -o build/testingoutput.out
 
 # Remove all the built files, invoke by `make clean`
 clean:
