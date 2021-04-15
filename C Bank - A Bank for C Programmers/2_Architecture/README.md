@@ -14,4 +14,4 @@
 
 ## UML Diagram
 
-![UML Diagram](https://github.com/AdityaGautam05/LTTS-C-MiniProject/blob/main/images/State_machine_diagram.png)
+![UML Diagram](https://github.com/AdityaGautam05/LTTS-C-MiniProject/blob/main/images/C%20Bank%20UML.png)
