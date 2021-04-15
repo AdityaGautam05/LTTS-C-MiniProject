@@ -20,15 +20,25 @@
 -   User mode consists of options:
     -   Create new Account, which requires the data
         -   Date of creation.
+        -   
         -   Account number.
+        -   
         -   Name of the Account holder.
+        -   
         -   Date of birth.
+        -   
         -   Age.
+        -   
         -   Address.
+        -   
         -   Citizenship number.
+        -   
         -   Phone number.
+        -   
         -   Amount to be deposited.
+        -   
         -   Type of account:
+        -   
             -   Savings
             -   Current
             -   Fixed1 (for 1 year)
