@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         make test -C  CBank/3_Implementation/
-        valgrind .LTTS-C-MiniProject/CBank/3_Implementation/build/testingoutput.out
+        valgrind .CBank/3_Implementation/build/testingoutput.out
