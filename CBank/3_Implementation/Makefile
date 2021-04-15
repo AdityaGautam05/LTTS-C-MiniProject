@@ -5,8 +5,7 @@ PROJECT_NAME = CBank.exe
 BUILD = build
 
 # All source code files
-SRC = project_main.c \
-src/CBank_Header.c
+SRC = src/CBank_Header.c
 
 # All test source files
 TEST_SRC = src/CBank_Header.c\
@@ -36,7 +35,7 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	gcc -I $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
+	gcc -I project_main.c $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
