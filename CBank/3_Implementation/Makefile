@@ -33,7 +33,7 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(INC)
-	gcc $(SRC) $(INC) -o CBank.exe
+	gcc $(SRC) $(INC) -o build/CBank.out
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
