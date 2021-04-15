@@ -19,7 +19,6 @@
 
 -   User mode consists of options:
     -   Create new Account, which requires the data
-  
         -   Date of creation.
         -   Account number.
         -   Name of the Account holder.
