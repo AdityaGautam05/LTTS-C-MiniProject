@@ -498,16 +498,13 @@ void see_details(void)
 void close_application(void)
 {
     system("clear");
-    system("color E");
     printf("\n\n\n\n\t\t\t\t\t\t\xB3 Creator : Aditya Gautam \xB3\n\n");
-    system("pause");
 }
 
 void bank_menu(void)
 {
     int choice;
     system("clear");
-    system("color 9");
     printf("\n\n\t\t\tC BANK ACCOUNT BANKING MANAGEMENT SYSTEM");
     printf("\n\n\n\t\t\t\xB2\xB2\xB2\xB2\xB2\xB2\xB2 WELCOME TO THE MAIN MENU xB2\xB2\xB2\xB2\xB2\xB2\xB2");
     printf("\n\n\t\t1.Create a new account\n\t\t2.Update the information of existing account\n\t\t3.Select for transactions\n\t\t4.Check the details of existing account\n\t\t5.Exit\n\n\n\n\n\t\t Enter your choice:");
@@ -537,7 +534,6 @@ void admin(void)
 {
     int choice;
     system("clear");
-    system("color A");
     printf("\n\n\t\t\t\tADMININSTRATOR MODE");
     printf("\n\n\n\t\t\t\xB2\xB2\xB2\xB2\xB2\xB2\xB2 WELCOME ADMIN ! \xB2\xB2\xB2\xB2\xB2\xB2\xB2");
     printf("\n\n\t\t1.Removing existing account\n\t\t2.View customer's list\n\t\t3.Exit\n\n\n\n\n\t\t Enter your choice:");
@@ -563,7 +559,6 @@ void main_screen()
     fflush(stdin);
     //clearing input buffer
     system("clear");
-    system("color A");
     char pass[10];
     int i = 0;
     printf("\n\n\t\t\t\t\tEnter the password to login : ");
@@ -595,7 +590,6 @@ void main_screen()
         close_application();
     } else {
         printf("\n\nWrong password!!\a\a\a\n");
-        system("pause");
         main_screen();
     }
 }
