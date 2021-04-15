@@ -5,7 +5,8 @@ PROJECT_NAME = CBank
 BUILD = build
 
 # All source code files
-SRC = src/CBank_Header.c
+SRC = src/CBank_Header.c \
+3_Implementation/project_main.c
 
 # All test source files
 TEST_SRC = src/CBank_Header.c\
