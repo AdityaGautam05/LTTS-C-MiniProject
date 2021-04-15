@@ -35,7 +35,7 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(INC)
-	gcc $(SRC) $(INC)
+	gcc $(SRC) $(INC) -w
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
