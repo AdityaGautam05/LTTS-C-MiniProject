@@ -13,6 +13,10 @@ TEST_SRC = src/CBank_Header.c\
 test/Test_CBank.c\
 unity/unity.c\
 
+TEST_VALGRIND = src/CBank_Header.c\
+test/testCBank_1.c\
+unity/unity.c\
+
 # All include folders with header files
 INC = inc/CBank_Header.h
 
@@ -46,6 +50,9 @@ doc:
 # Build and run the unit tests
 test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o build/testingoutput.out
+
+valgrind:$(BUILD)
+	gcc $(TEST_VALGRIND) $(INC) -o build/testVal.out
 
 # Remove all the built files, invoke by `make clean`
 clean:
