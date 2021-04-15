@@ -13,4 +13,4 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: make all
-      run:  make all -C CBank/3_Implementation
+      run: make -C CBank/3_Implementation/ all
