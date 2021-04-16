@@ -57,6 +57,11 @@ valgrind:$(BUILD)
 # Remove all the built files, invoke by `make clean`
 clean:
 	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
+	
+coverage:
+	cp test/test.c .
+	gcc $(SRC) $(INC) -o build/CBank.out
+	gcov -a build/CBank.out
 
 # Create new build folder if not present
 $(BUILD):
