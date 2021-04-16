@@ -59,7 +59,6 @@ clean:
 	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
 	
 coverage:
-	cp test/test.c .
 	gcc $(SRC) $(INC) -o build/CBank.out
 	gcov -a build/CBank.out
 
