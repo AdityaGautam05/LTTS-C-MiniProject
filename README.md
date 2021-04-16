@@ -15,8 +15,7 @@ Folder             | Description
 `CBank/2_Architecture`         | System Architecture
 `CBank/3_Implementation` | Implementation of the proposed system
 `CBank/4_TestPlanAndOutput`      | Test Plan and Output of the testing procedure
-`CBank/5_Report`      | Report for the project
-`6_ImagesAndVideos`      | Images of the program execution on the local machine
+`CBank/5_ImagesAndVideos`      | Images of the program execution on the local machine
 
 ## Contributors List
 

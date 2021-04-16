@@ -1,3 +1,13 @@
+/**
+ * @file CBank_Header.h
+ * @author {Aditya} ({gautamaditya99@gmail.com})
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-16
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #ifndef _cbank_
 void admin();
 void main_screen();
