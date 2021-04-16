@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "../unity/unity.h"
 
 int i, j;
 int main_exit;
