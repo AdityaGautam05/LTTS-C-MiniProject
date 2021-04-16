@@ -1,3 +1,13 @@
+/**
+ * @file CBank_Header.c
+ * @author {Aditya} ({gautamaditya99@gmail.com})
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-16
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "../inc/CBank_Header.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -26,6 +36,14 @@ struct
 
 } add, upd, check, rem, transaction;
 
+/**
+ * @brief compute interest
+ * 
+ * @param time 
+ * @param amount 
+ * @param rate 
+ * @return float 
+ */
 float compute_interest(float time, float amount, int rate)
 {
     float SI;
@@ -33,6 +51,11 @@ float compute_interest(float time, float amount, int rate)
     return (SI);
 }
 
+/**
+ * @brief delays execution
+ * 
+ * @param j 
+ */
 void compute_delay(int j)
 {
     int i, k;
@@ -40,6 +63,10 @@ void compute_delay(int j)
         k = i;
 }
 
+/**
+ * @brief Create a new account object
+ * 
+ */
 void create_new_account()
 {
     int choice;
@@ -99,6 +126,10 @@ add_invalid:
     }
 }
 
+/**
+ * @brief View the record list
+ * 
+ */
 void view_list()
 {
     FILE *view;
@@ -135,6 +166,10 @@ void view_list()
     }
 }
 
+/**
+ * @brief Edit Details
+ * 
+ */
 void edit_details(void)
 {
     int choice, test = 0;
@@ -210,6 +245,10 @@ void edit_details(void)
     }
 }
 
+/**
+ * @brief compute_transaction
+ * 
+ */
 void compute_transaction(void)
 {
     int choice, test = 0;
@@ -291,6 +330,10 @@ void compute_transaction(void)
     }
 }
 
+/**
+ * @brief erase the records
+ * 
+ */
 void erase_details(void)
 {
     FILE *old, *newrec;
@@ -345,6 +388,10 @@ void erase_details(void)
     }
 }
 
+/**
+ * @brief see the records
+ * 
+ */
 void see_details(void)
 {
     FILE *ptr;
@@ -495,12 +542,20 @@ void see_details(void)
     }
 }
 
+/**
+ * @brief close_application
+ * 
+ */
 void close_application(void)
 {
     system("clear");
     printf("\n\n\n\n\t\t\t\t\t\t\xB3 Creator : Aditya Gautam \xB3\n\n");
 }
 
+/**
+ * @brief Main Bank Menu
+ * 
+ */
 void bank_menu(void)
 {
     int choice;
@@ -530,6 +585,11 @@ void bank_menu(void)
         break;
     }
 }
+
+/**
+ * @brief admin mode
+ * 
+ */
 void admin(void)
 {
     int choice;
@@ -554,6 +614,10 @@ void admin(void)
     }
 }
 
+/**
+ * @brief Main Menu
+ * 
+ */
 void main_screen()
 {
     fflush(stdin);
