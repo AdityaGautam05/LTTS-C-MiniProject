@@ -46,7 +46,7 @@ doc:
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o build/testingoutput.out
+	gcc $(TEST_SRC) $(INC) -o build/CBank.out
 
 valgrind:$(BUILD)
 	gcc $(TEST_VALGRIND) $(INC) -o build/testVal.out
