@@ -1,3 +1,3 @@
-# images and videos
+# Images & Videos
 
-* Add any images or Videos related to the implemented project
+* Please find the screenshots of the project execution attached
